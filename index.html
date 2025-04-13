@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="fr"> <!-- Langue changée en français -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mon Portfolio</title> 
+    <link rel="stylesheet" href="style/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <h4 class="logo"><a href="">Mon Portfolio</a></h4>
+      <nav>
+        <ul class="nav_links">
+          <li><a href="#about">À propos</a></li> 
+          <li><a href="#education">Formation</a></li> 
+          <li><a href="#skill">Compétences</a></li> 
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <a
+        class="nav_btn"
+        target="_blank"
+        href="https://api.whatsapp.com/send?phone=778625276&text=%F0%9F%98%B1%F0%9F%98%B1%F0%9F%98%B1"
+      >
+        <button><i class="fa fa-whatsapp"></i> Discutons</button> 
+      </a>
+
+      <a
+        class="nav_btn"
+        target="_blank"
+        href="/Mon_CV/CV_Abdoulaye_THIAM.pdf"
+      >
+        <button><i class=""></i> Télécharger Mon_CV</button> <!-- Traduit -->
+      </a>
+     
+    </header>
+
+    <!-- Section À propos -->
+    <section id="about">
+      <div class="about">
+        <h3><span>Bonjour ! Je suis Abdoulaye —</span></h3> <!-- Traduit -->
+        <h1>Développeur Web Débutant</h1> <!-- Traduit -->
+        <p>
+          Je suis actuellement étudiant à l'UNIRO en <br />
+          Génie Informatique. Passionné par l'apprentissage continu, <br />
+          je cherche constamment à améliorer mes compétences. <br />
+          Mon objectif est d'acquérir une expérience professionnelle <br />
+          concrète dans le développement web.
+        </p>
+
+        <a class="about_btn" href="mailto:abdoulayethiam885@gmail.com">
+          <button><i class="fa fa-briefcase"></i> Recrutez-moi</button> <!-- Traduit -->
+        </a>
+        <div class="about-icons">
+          <!-- Liens sociaux inchangés -->
+        </div>
+      </div>
+
+      <div class="img_about">
+        <img src="assets/Photo-Profil.png" alt="Photo de profil" /> <!-- Alt traduit -->
+      </div>
+
+      <!-- Vague décorative (inchangée) -->
+    </section>
+
+    <!-- Section Formation -->
+    <section id="education">
+      <div class="education">
+        <div class="edu-title">
+          <h1>Formation</h1> <!-- Traduit -->
+          <span>———o———</span>
+          <p>Historique de formation</p> <!-- Traduit -->
+        </div>
+
+        <div class="row">
+          <div class="col1">
+            <h2>Univers Professionnel UNIPRO</h2>
+            <p class="date-edu">2024 - Aujourd'hui</p> <!-- Traduit -->
+            <p class="desc-edu">Génie Informatique</p> <!-- Traduit -->
+          </div>
+
+          <!-- Séparateur visuel inchangé -->
+          
+          <div class="col3">
+            <h2>Centre de Formation Africain du Sénégal CEFAS</h2>
+            <p class="date-edu">2023 - 2024</p>
+            <p class="desc-edu">Informatique de Gestion</p> <!-- Traduit -->
+          </div>
+        </div>
+
+        <!-- Vague décorative (inchangée) -->
+      </div>
+    </section>
+
+    <!-- Section Compétences -->
+    <section id="skill">
+      <div class="skill">
+        <div class="skill-title">
+          <h1>Compétences</h1> <!-- Traduit -->
+          <span>——o—o——</span>
+          <p>Langages de programmation<br />et outils.</p> <!-- Traduit -->
+        </div>
+
+        <div class="flex-wrapper">
+          <div class="items flex-grid">
+            <!-- Cartes de compétences -->
+            <div class="d-col-1 t-col-4 m-col-12">
+              <img src="assets/html.png" alt="Logo HTML" /> <!-- Alt traduit -->
+              <p>HTML</p>
+              <p class="medium">intermédiaire</p> <!-- Traduit -->
+            </div>
+            <div class="d-col-1 t-col-4 m-col-12">
+              <img src="assets/css.svg" alt="Logo CSS" /> <!-- Alt traduit -->
+              <p>CSS</p>
+              <p class="medium">intermédiaire</p> <!-- Traduit -->
+            </div>
+            <div class="d-col-1 t-col-4 m-col-12">
+              <img src="assets/js.png" alt="Logo JavaScript" /> <!-- Alt traduit -->
+              <p>JavaScript</p>
+              <p class="medium">intermédiaire</p> <!-- Traduit -->
+            </div>
+            <div class="d-col-1 t-col-4 m-col-12">
+              <img src="assets/word.png" alt="Logo Word" /> <!-- Alt traduit -->
+              <p>Word</p>
+              <p class="medium">avancé</p> <!-- Traduit -->
+            </div>
+            <div class="d-col-1 t-col-4 m-col-12">
+              <img src="assets/excel.png" alt="Logo Excel" /> <!-- Alt traduit -->
+              <p>Excel</p>
+              <p class="medium">intermédiaire</p> <!-- Traduit -->
+            </div>
+            <!-- ... (autres compétences avec le même principe) ... -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section Contact -->
+    <section id="contact">
+      <div class="contact">
+        <div class="contact-title">
+          <h1>Contact</h1>
+          <span>——o—o—o——</span>
+          <p>Contactez-moi pour plus d'informations</p> <!-- Traduit -->
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col left">
+          <img src="assets/img-form.svg" alt="Illustration contact" /> 
+        </div>
+
+        <div class="col right">
+          <form action="javascript:" method="post">
+            <label for="name">Nom complet</label> <!-- Traduit -->
+            <input type="text" name="name" id="name" />
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" />
+            <label for="subject">Sujet</label> <!-- Traduit -->
+            <input type="text" name="subject" id="subject" />
+            <label for="topic">Sujet</label> 
+            <select name="topic" id="topic">
+              <option value="information">Information</option>
+              <option value="feedback">Retour</option> 
+              <option value="other">Autre</option> 
+            </select>
+
+            <div class="btn-form">
+              <input type="submit" name="submit" id="submit" value="Envoyer" /> 
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pied de page -->
+    <footer>
+      <!-- Vague décorative (inchangée) -->
+
+      <div class="foot-content">
+        <p>Intéressé par mon profil ?</p> <!-- Traduit -->
+        <p>Suivez-moi sur les réseaux sociaux</p> <!-- Traduit -->
+
+        <!-- Icônes sociales inchangées -->
+
+        <div class="createby">
+          <p>&copy; Abdoulaye THIAM, 2023</p>
+          <p>Tous droits réservés.</p> <!-- Traduit -->
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bouton de retour en haut -->
+    <div id="scrool-up">
+      <a href="#about">
+        <i class="fa fa fa-arrow-up"></i>
+      </a>
+    </div>
+
+    <script src="script.js" type="text/javascript"></script>
+  </body>
+</html>
